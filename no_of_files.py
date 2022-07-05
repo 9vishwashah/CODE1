@@ -1,6 +1,6 @@
 from importlib.resources import path
 import os
-path='C:\Users\COMP\Desktop\VISHWA GIT HUB'
+path=input("Paste the path from your pc:\n")
 file_count=0
 dir_count=0
 for root, dirs, files in os.walk(path):
