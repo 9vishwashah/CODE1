@@ -8,11 +8,11 @@ def greet(name='Harry'):
 
     
 
-# avg = average(3, 6, 3)
 
-# print(avg)
 
-# a = greet("Shubh")
+
+
+
 
 a = greet()
 
