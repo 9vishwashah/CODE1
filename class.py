@@ -1,16 +1,16 @@
 class Employee:
 
-    name = "Vishwa"
+    name = "vishwa"
 
     marks = 34
 
     center = "Delhi"
 
-harry = Employee() # A basic object
+vishwa= Employee() # A basic object
 
-print(harry.marks)
+print(vishwa.marks)
 
-print(harry.center)
+print(vishwa.center)
 
-print(harry.name)
+print(vishwa.name)
 
