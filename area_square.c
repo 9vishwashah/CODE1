@@ -1,18 +1,10 @@
 #include<stdio.h>
-
 #include<math.h>
-
-int main(){
-
-    int side;
-
-    printf("Enter the value of side\n");
-
-    scanf("%d", &side);
-
-    printf("The value of area is %f", pow(side,2));
-
-    return 0;
-
+int main()
+{
+    float s;
+    printf("Enter a side of Square:\n");
+    scanf("%f", &s);
+    printf("The area of Square: %f", pow(s,2));
+return 0;
 }
-
