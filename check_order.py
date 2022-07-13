@@ -9,6 +9,6 @@ def checkOrder(a, b):
 			return 'true'
 	return 'false'
 if __name__ == "__main__":
-	a = 'Vishwa Shah'
-	b = 'wh'
+	a = input("Enter the String\n")
+	b = input("Enter letter you want to check in order")
 	print (checkOrder(a,b))
